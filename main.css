@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.btn{
+  text-decoration: none;
+  margin: 0;
+  border: 1px solid tomato;
+  background-color: tomato;
+  display: inline-block;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: tomato;
+}
+.btn:active {
+  background-color: tomato;
+
+}
+.btn:focus {
+  box-shadow:10px 10px 5px black;
+
+}
